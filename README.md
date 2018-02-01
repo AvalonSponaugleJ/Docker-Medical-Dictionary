@@ -82,8 +82,8 @@ This project use the following ports :
 | Server     | Port |
 |------------|------|
 | MySQL      | 8989 |
-| PHPMyAdmin | 8080 |
-| Nginx      | 8000 |
+| PHPMyAdmin | 8088 |
+| Nginx      | 8080 |
 | Nginx SSL  | 3000 |
 
 ---
@@ -122,16 +122,6 @@ cd docker-nginx-php-mysql
 │   │   └── php.ini
 │   └── ssl
 └── web
-    ├── app
-    │   ├── composer.json.dist
-    │   ├── phpunit.xml.dist
-    │   ├── src
-    │   │   └── Foo.php
-    │   └── test
-    │       ├── FooTest.php
-    │       └── bootstrap.php
-    └── public
-        └── index.php
 ```
 
 ---
